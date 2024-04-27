@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/yr/yr/code/BreakingThroughCLanguageIn13Days/cmake-bu
 
 build cmake_object_order_depends_target_BreakingThroughCLanguageIn13Days: phony || CMakeFiles/BreakingThroughCLanguageIn13Days.dir
 
-build CMakeFiles/BreakingThroughCLanguageIn13Days.dir/0_Tutorials.cpp.o: CXX_COMPILER__BreakingThroughCLanguageIn13Days_unscanned_Debug /home/yr/yr/code/BreakingThroughCLanguageIn13Days/0_Tutorials.cpp || cmake_object_order_depends_target_BreakingThroughCLanguageIn13Days
-  DEP_FILE = CMakeFiles/BreakingThroughCLanguageIn13Days.dir/0_Tutorials.cpp.o.d
+build CMakeFiles/BreakingThroughCLanguageIn13Days.dir/1stDay/2ＥxchangeValue.cpp.o: CXX_COMPILER__BreakingThroughCLanguageIn13Days_unscanned_Debug /home/yr/yr/code/BreakingThroughCLanguageIn13Days/1stDay/2ＥxchangeValue.cpp || cmake_object_order_depends_target_BreakingThroughCLanguageIn13Days
+  DEP_FILE = CMakeFiles/BreakingThroughCLanguageIn13Days.dir/1stDay/2ＥxchangeValue.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/BreakingThroughCLanguageIn13Days.dir
-  OBJECT_FILE_DIR = CMakeFiles/BreakingThroughCLanguageIn13Days.dir
+  OBJECT_FILE_DIR = CMakeFiles/BreakingThroughCLanguageIn13Days.dir/1stDay
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/BreakingThroughCLanguageIn13Days.dir/0_Tutorials.cpp.o: CXX_COM
 #############################################
 # Link the executable BreakingThroughCLanguageIn13Days
 
-build BreakingThroughCLanguageIn13Days: CXX_EXECUTABLE_LINKER__BreakingThroughCLanguageIn13Days_Debug CMakeFiles/BreakingThroughCLanguageIn13Days.dir/0_Tutorials.cpp.o
+build BreakingThroughCLanguageIn13Days: CXX_EXECUTABLE_LINKER__BreakingThroughCLanguageIn13Days_Debug CMakeFiles/BreakingThroughCLanguageIn13Days.dir/1stDay/2ＥxchangeValue.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/BreakingThroughCLanguageIn13Days.dir
   POST_BUILD = :
